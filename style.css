@@ -1,0 +1,404 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #137e7c1c;
+}
+
+main {
+    width: 65%;
+    margin: auto;
+    height: 1200px;
+    background-color: grey;
+    font-family: sans-serif;
+    display: flex;
+}
+
+#droite {
+    width: 40%;
+    height: auto;
+    background-color: #212121;
+}
+
+#jaune {
+    height: auto;
+    width: 100%;
+    background-color: #EDD71A;
+    padding-top: 35px;
+}
+
+#photo {
+    display: flex;
+    background-color: aliceblue;
+    width: 62%;
+    margin: auto;
+    flex-direction: column;
+    height: auto;
+    border-radius: 140px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+#moi {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border-radius: 140px;
+    border: solid 7px #EDD71A;
+}
+
+h1 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    font-size: 1.6em;
+    background-color: aliceblue;
+}
+
+#name {
+    color: #EDD71A;
+    background-color: aliceblue;
+}
+
+#statue {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 1.6em;
+    background-color: aliceblue;
+}
+
+#description {
+    margin-top: 20px;
+    background-color: #EDD71A;
+}
+
+.écrit {
+    height: 30px;
+    margin: 9px 0px;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background-color: #EDD71A;
+}
+
+#permis {
+    height: 30px;
+    margin-top: 7px;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    background-color: #EDD71A;
+}
+
+.icone {
+    width: 30px;
+    background-color: #EDD71A;
+}
+
+#noir {
+    height: 35%;
+    width: 100%;
+    background-color: #212121;
+    /* margin-top: 30px; */
+    color: white;
+}
+
+#noir h2 {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #212121;
+}
+
+ul {
+    background-color: #212121;
+}
+
+.liste {
+    font-size: 1.4em;
+    margin: 10px 0px;
+    margin-left: 104px;
+    background-color: #212121;
+}
+
+#drapeaux {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #212121;
+}
+
+#France {
+    width: 80px;
+    height: auto;
+}
+
+#Angleterre {
+    width: 80px;
+    height: auto;
+}
+
+#Espagne {
+    width: 80px;
+    height: auto;
+}
+
+#gauche {
+    width: 60%;
+    height: auto;
+    background-color: white;
+    padding: 0px 40px;
+}
+
+#presentation h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#recherche {
+    padding-top: 30px;
+    font-size: 1.7em;
+    background-color: white;
+}
+
+#communication {
+    padding-bottom: 20px;
+    font-size: 1.7em;
+    background-color: white;
+}
+
+#gauche p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    font-size: 1.2em;
+}
+
+.années {
+    padding-right: 15px;
+    background-color: white;
+}
+
+.années-seule {
+    padding-left: 47px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+.ensemble {
+    display: flex;
+    justify-content: baseline;
+    font-size: 1.2em;
+    padding: 10px 0px;
+    background-color: white;
+}
+
+.texte {
+    background-color: white;
+}
+
+strong {
+    background-color: white;
+}
+
+/* ---------------------- Titre h2 ---------------------- */
+
+#formation h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+#experiences h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+#étude {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+#projet h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+#projet p {
+    text-justify: auto;
+}
+
+#qualites h2 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+#hobbies h2 {
+    padding-top: 5px;
+    background-color: white;
+}
+
+.trait {
+    width: 130px;
+    height: 5px;
+    padding-right: 25px;
+    padding-top: 21px;
+    padding-left: 10px;
+    display: flex;
+    background-color: white;
+}
+
+.petit-trait {
+    width: 60px;
+    height: 4px;
+    padding-right: 10px;
+    padding-top: 14px;
+    padding-left: 6px;
+    display: flex;
+    background-color: white;
+}
+
+
+/* ---------------------- Page ---------------------- */
+
+.interieur {
+    padding: 20px 0px;
+    background-color: white;
+}
+
+/* ---------------------- Fin de la page ---------------------- */
+
+#fin {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 25px;
+}
+
+.blanc {
+    background-color: white;
+}
+
+.icone-jaune {
+    width: 50px;
+    height: auto;
+    background-color: white;
+}
+
+.petit-icone-jaune {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.bas-page {
+    display: flex;
+    justify-content: baseline;
+    background-color: white;
+}
+
+.fin-page {
+    font-size: 1.3em;
+}
+
+#assidu {
+    padding-left: 50px;
+    padding-top: 15px;
+    background-color: white;
+    font-size: 1.2em;
+}
+
+.espace {
+    padding-bottom: 8px;
+}
+
+li {
+    background-color: white;
+}
+
+.sport {
+    padding-right: 15px;
+    background-color: white;
+}
+
+#espace {
+    padding-top: 10px;
+}
+
+#seul {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.desc {
+    background-color: white;
+}
+
+#gris {
+    height: 230px;
+    position: absolute;
+    top: 960px; left:   920px;
+    background-color: white;
+}
+
+/* ---------------------- Page gros blocs---------------------- */
+
+#form {
+    padding-top: 25px;
+}
+
+/* ---------------------- Drapeaux ---------------------- */
+
+.Flag {
+    display: flex;
+    justify-content: baseline;
+    background-color: white;
+}
+
+#Canada {
+    width: auto;
+    height: 45px;
+}
+
+#Tchéquie {
+    width: auto;
+    height: 45px;
+    border: 2   px solid #DADADA;
+}
+
+#Belgique {
+    width: auto;
+    height: 45px;
+}
+
+#Guadeloupe {
+    width: auto;
+    height: 50px;
+}
+
+#Spain {
+    width: auto;
+    height: 50px;
+}
+
+#Portugal {
+    width: auto;
+    height: 50px;
+}
+
+.Flag {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    justify-content: space-around;
+}
